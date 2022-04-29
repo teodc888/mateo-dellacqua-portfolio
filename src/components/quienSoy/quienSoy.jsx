@@ -71,7 +71,7 @@ export default function QuienSoy() {
               </Typography>
             </Box>
             <Button
-              href="#conocimientos"
+              href="#contactar"
               sx={{
                 width: "200px",
                 height: "100px",
