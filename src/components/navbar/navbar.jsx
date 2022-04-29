@@ -31,6 +31,10 @@ export default function Navbar() {
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
+  const handleMenuClose = () => {
+    setAnchorEl(null);
+    handleMobileMenuClose();
+  };
 
   const mobileMenuId = "primary-search-account-menu-mobile";
   const renderMobileMenu = (
@@ -50,27 +54,27 @@ export default function Navbar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <Button color="inherit" href="#quienSoy" >
+        <Button color="inherit" href="#quienSoy" onClick={handleMenuClose}>
           Quien soy?
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" href="#conocimientos">
+        <Button color="inherit" href="#conocimientos" onClick={handleMenuClose}>
           Conocimientos
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" href="#experiencia" >
+        <Button color="inherit" href="#experiencia" onClick={handleMenuClose}>
           Experiencia
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" href="#proyectos">
+        <Button color="inherit" href="#proyectos" onClick={handleMenuClose}>
           Proyectos
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" href="#contactar" >
+        <Button color="inherit" href="#contactar" onClick={handleMenuClose}>
           Contactar
         </Button>
       </MenuItem>
@@ -89,7 +93,7 @@ export default function Navbar() {
               display: { xs: "none", sm: "none", md: "block", lg: "block" },
             }}
           >
-            <Button color="inherit" href="#quienSoy" >
+            <Button color="inherit" href="#quienSoy">
               Quien soy?
             </Button>
             <Button color="inherit" href="#conocimientos">
