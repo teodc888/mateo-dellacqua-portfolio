@@ -32,36 +32,6 @@ export default function Navbar() {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
-  const handleQuienSoy = () => {
-    window.scrollTo(0, 0);
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
-
-  const handleConocimientos = () => {
-    window.scrollTo(0, 800);
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
-
-  const handleExperiencia = () => {
-    window.scrollTo(0, 1750);
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
-
-  const handleProyectos = () => {
-    window.scrollTo(0, 3450);
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
-
-  const handleContactar = () => {
-    window.scrollTo(0, 5000);
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
-
   const mobileMenuId = "primary-search-account-menu-mobile";
   const renderMobileMenu = (
     <Menu
@@ -80,27 +50,27 @@ export default function Navbar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <Button color="inherit" onClick={handleQuienSoy}>
+        <Button color="inherit" href="#quienSoy" >
           Quien soy?
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" onClick={handleConocimientos}>
+        <Button color="inherit" href="#conocimientos">
           Conocimientos
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" onClick={handleExperiencia}>
+        <Button color="inherit" href="#experiencia" >
           Experiencia
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" onClick={handleProyectos}>
+        <Button color="inherit" href="#proyectos">
           Proyectos
         </Button>
       </MenuItem>
       <MenuItem>
-        <Button color="inherit" onClick={handleContactar}>
+        <Button color="inherit" href="#contactar" >
           Contactar
         </Button>
       </MenuItem>
@@ -119,19 +89,19 @@ export default function Navbar() {
               display: { xs: "none", sm: "none", md: "block", lg: "block" },
             }}
           >
-            <Button color="inherit" onClick={handleQuienSoy}>
+            <Button color="inherit" href="#quienSoy" >
               Quien soy?
             </Button>
-            <Button color="inherit" onClick={handleConocimientos}>
+            <Button color="inherit" href="#conocimientos">
               Conocimientos
             </Button>
-            <Button color="inherit" onClick={handleExperiencia}>
+            <Button color="inherit" href="#experiencia">
               Experiencia
             </Button>
-            <Button color="inherit" onClick={handleProyectos}>
+            <Button color="inherit" href="#proyectos">
               Proyectos
             </Button>
-            <Button color="inherit" onClick={handleContactar}>
+            <Button color="inherit" href="#contactar">
               Contactar
             </Button>
           </Box>

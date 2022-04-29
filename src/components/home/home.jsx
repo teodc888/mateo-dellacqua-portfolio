@@ -13,37 +13,44 @@ import Contactar from "../contactar/contactar";
 export default function Home() {
   return (
     <>
+      <br id="quienSoy" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "230px" },
+          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
         }}
+        
       >
         <QuienSoy />
       </Box>
+      <br id="conocimientos" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "230px" },
+          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
         }}
       >
         <Conocimientos />
       </Box>
+      <br id="experiencia" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "230px" },
+          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
         }}
       >
         <Experiencia />
       </Box>
+      <br id="proyectos" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "230px" },
+          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
         }}
+
       >
         <Proyectos />
       </Box>
+      <br id="contactar" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "230px" },
+          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
         }}
       >
         <Contactar />
