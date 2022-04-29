@@ -17,7 +17,7 @@ import Typed from "react-typed";
 
 export default function QuienSoy() {
   return (
-    <Box sx={{ flexGrow: 1}}>
+    <Box sx={{ flexGrow: 1 }}>
       <Grid
         container
         spacing={{ xs: 3, md: 6 }}
@@ -71,6 +71,7 @@ export default function QuienSoy() {
               </Typography>
             </Box>
             <Button
+              href="#conocimientos"
               sx={{
                 width: "200px",
                 height: "100px",
