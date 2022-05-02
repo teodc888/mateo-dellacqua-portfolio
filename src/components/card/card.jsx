@@ -21,6 +21,7 @@ export default function CardP({ imagen, titulo, descripcion, github, link }) {
         borderRadius: "20px",
         bgcolor: "#37474f",
         boxShadow: "0px 0px 1 0px #37474f",
+        mb:"5%",
       }}
     >
       <CardMedia

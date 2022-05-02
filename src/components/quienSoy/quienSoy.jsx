@@ -45,7 +45,7 @@ export default function QuienSoy() {
                 fontSize: { xs: "20px", sm: "20px", md: "25px", lg: "25px" },
               }}
             >
-              Me llamo Mateo Dell Acqua Castro y{" "}
+              Me llamo, Mateo Dell Acqua Castro{" "}
             </Typography>
             <Typography
               variant="h5"
@@ -81,8 +81,9 @@ export default function QuienSoy() {
                 equipo.
               </Typography>
               <Typography variant="h7" component="div" sx={{ color: "white" }}>
-                Actualmente mis habilidades son: Javascript, React, Mui, Redux,
-                NodeJs, Express, Sequalize, PostgreSQL , GitHub
+                Actualmente mis habilidades son: Javascript, React,
+                Mui,Bootstrap, Redux, NodeJs, Express, Sequalize, PostgreSQL ,
+                GitHub, Html, Css, Scrum
               </Typography>
             </Box>
             <Box sx={{ flexGrow: 1 }}>
@@ -105,7 +106,7 @@ export default function QuienSoy() {
                       boxShadow: "0px 0px 10px #0d47a1",
                       transition: "all 0.3s ease-in-out",
                       ":hover": { transform: "scale(1.1)" },
-                      mt: { xs: "5%", sm: "5%", md: "0", lg: "0" },
+                      mt: { xs: "5%", sm: "5%", md: "10%", lg: "10%" },
                     }}
                     variant="contained"
                     color="primary"
@@ -126,6 +127,7 @@ export default function QuienSoy() {
                       boxShadow: "0px 0px 10px #0d47a1",
                       transition: "all 0.3s ease-in-out",
                       ":hover": { transform: "scale(1.1)" },
+                      mt: { xs: "5%", sm: "5%", md: "10%", lg: "10%" },
                     }}
                     href={pdf}
                     variant="contained"
