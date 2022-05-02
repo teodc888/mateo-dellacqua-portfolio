@@ -15,6 +15,8 @@ import PanToolIcon from "@mui/icons-material/PanTool";
 
 import Typed from "react-typed";
 
+import pdf from "../../archivos/CVMateoDellAcquaCastro.pdf";
+
 export default function QuienSoy() {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -41,7 +43,7 @@ export default function QuienSoy() {
               <PanToolIcon
                 sx={{
                   fontSize: { xs: "20px", sm: "40px", md: "50px", lg: "50px" },
-               }}
+                }}
               />
             </Typography>
             <Typography variant="h6" component="div" sx={{ color: "white" }}>
@@ -75,23 +77,54 @@ export default function QuienSoy() {
                 NodeJs, Express, Sequalize, PostgreSQL , GitHub
               </Typography>
             </Box>
-            <Button
-              href="#contactar"
-              sx={{
-                width: "200px",
-                height: "100px",
-                fontSize: "25px",
-                color: "white",
-                bgcolor: "#0d47a1",
-                borderRadius: "10px",
-                boxShadow: "0px 0px 10px #0d47a1",
-                mt: "10%",
-              }}
-              variant="contained"
-              color="primary"
-            >
-              Contactar
-            </Button>
+            <Box sx={{ flexGrow: 1 }}>
+              <Grid
+                container
+                spacing={{ xs: 4, md: 3 }}
+                columns={{ xs: 4, sm: 8, md: 12 }}
+                sx={{ mt: "10%" }}
+              >
+                <Grid item xs={4} sm={8} md={6}>
+                  <Button
+                    href="#contactar"
+                    sx={{
+                      width: "100%",
+                      height: "80px",
+                      fontSize: "25px",
+                      color: "white",
+                      bgcolor: "#0d47a1",
+                      borderRadius: "10px",
+                      boxShadow: "0px 0px 10px #0d47a1",
+                    }}
+                    variant="contained"
+                    color="primary"
+                  >
+                    Contactar
+                  </Button>
+                </Grid>
+                <Grid item xs={4} sm={8} md={6}>
+                  <Button
+                    sx={{
+                      width: "100%",
+                      height: "80px",
+                      fontSize: "25px",
+                      color: "white",
+                      bgcolor: "#0d47a1",
+                      borderRadius: "10px",
+                      boxShadow: "0px 0px 10px #0d47a1",
+                    }}
+                    href={pdf}
+                    variant="contained"
+                    color="primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download="MateoDellacquaCV.pdf"
+                  >
+                    Curriculum
+                  </Button>
+                </Grid>
+              </Grid>
+            </Box>
           </Stack>
         </Grid>
         <Grid
