@@ -127,7 +127,7 @@ export default function QuienSoy() {
                       boxShadow: "0px 0px 10px #0d47a1",
                       transition: "all 0.3s ease-in-out",
                       ":hover": { transform: "scale(1.1)" },
-                      mt: { xs: "5%", sm: "5%", md: "10%", lg: "10%" },
+                      mt: { xs: "0", sm: "0", md: "10%", lg: "10%" },
                     }}
                     href={pdf}
                     variant="contained"
