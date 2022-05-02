@@ -7,7 +7,8 @@ import Typed from "react-typed";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#212121",
+    background: "#263238",
+    borderRadius: "20px",
   },
   timeLine: {
     position: "relative",

@@ -14,7 +14,7 @@ import Typed from "react-typed";
 
 export default function Contactar() {
   return (
-    <Box sx={{ flexGrow: 1, bgcolor: "#212121", height: "100%" }}>
+    <Box sx={{ flexGrow: 1, bgcolor: "#263238", height: "100%", borderRadius:"20px" }}>
       <Stack
         direction="column"
         alignItems="center"
@@ -33,16 +33,20 @@ export default function Contactar() {
           <Typed strings={["Contactar"]} typeSpeed={50} backSpeed={50} loop />
         </Typography>
         <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={2} columns={16}>
-            <Grid item xs={8}>
+          <Grid
+            container
+            spacing={{ xs: 4, md: 3 }}
+            columns={{ xs: 4, sm: 8, md: 16 }}
+          >
+            <Grid item xs={4} sm={4} md={8}>
               <TextField
                 id="outlined-basic"
                 label="Nombre"
                 variant="outlined"
-                sx={{ width: "100%" }}
+                sx={{ width: "100%"  }}
               />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={4} sm={4} md={8}>
               <TextField
                 id="outlined-basic"
                 label="Apellido"
@@ -50,23 +54,23 @@ export default function Contactar() {
                 sx={{ width: "100%" }}
               />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={4} sm={4} md={8}>
               <TextField
                 id="outlined-basic"
                 label="Email"
                 variant="outlined"
-                sx={{ width: "100%" }}
+                sx={{ width: "100%"  }}
               />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={4} sm={4} md={8}>
               <TextField
                 id="outlined-basic"
                 label="Asunto"
                 variant="outlined"
-                sx={{ width: "100%" }}
+                sx={{ width: "100%"  }}
               />
             </Grid>
-            <Grid item xs={16}>
+            <Grid item xs={4} sm={8} md={16}>
               <TextareaAutosize
                 aria-label="minimum height"
                 minRows={3}
@@ -74,12 +78,14 @@ export default function Contactar() {
                 style={{
                   width: "100%",
                   height: "200px",
-                  background: "#263238",
+                  background: "#212121",
                   color: "white",
+                  borderRadius: "10px",
+                  padding: "10px",
                 }}
               />
             </Grid>
-            <Grid item xs={16} sx={{ textAlign: "center" }}>
+            <Grid item xs={4} sm={4} md={16} sx={{ textAlign: "center" }}>
               <Button
                 variant="contained"
                 color="primary"
@@ -91,7 +97,7 @@ export default function Contactar() {
                   bgcolor: "#0d47a1",
                   borderRadius: "10px",
                   boxShadow: "0px 0px 10px #0d47a1",
-                    mb: "2%",
+                  mb: "2%",
                 }}
               >
                 Enviar

@@ -26,7 +26,7 @@ export default function Proyectos() {
   }, []);
 
   return (
-    <Box sx={{ flexGrow: 1, bgcolor: "#212121", height: "100%" }}>
+    <Box sx={{ flexGrow: 1, bgcolor: "#263238", height: "100%", borderRadius:"20px" }}>
       {!loading ? (
         <div style={{ textAlign: "center" }}>
           <img

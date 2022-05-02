@@ -6,7 +6,6 @@ import {
   Stack,
   Typography,
   Grid,
-  Card,
   CardMedia,
   Button,
 } from "@mui/material";
@@ -36,17 +35,36 @@ export default function QuienSoy() {
               variant="h3"
               textAlign={"center"}
               sx={{
-                fontSize: { xs: "30px", sm: "40px", md: "50px", lg: "50px" },
+                fontSize: { xs: "40px", sm: "40px", md: "40px", lg: "40px" },
               }}
             >
-              Mateo DellAcqua Castro{" "}
+              BIENVENIDOS{" "}
               <PanToolIcon
                 sx={{
-                  fontSize: { xs: "20px", sm: "40px", md: "50px", lg: "50px" },
+                  fontSize: { xs: "20px", sm: "20px", md: "40px", lg: "40px" },
                 }}
               />
             </Typography>
-            <Typography variant="h6" component="div" sx={{ color: "white" }}>
+            <Typography
+              variant="h3"
+              textAlign={"center"}
+              sx={{
+                fontSize: { xs: "20px", sm: "20px", md: "25px", lg: "25px" },
+              }}
+            >
+              Me llamo Mateo Dell Acqua Castro y{" "}
+            </Typography>
+            <Typography
+              variant="h5"
+              textAlign={"center"}
+              component="div"
+              sx={{
+                color: "white",
+                marginBottom: "2%",
+                fontSize: { xs: "20px", sm: "20px", md: "20px", lg: "20px" },
+              }}
+            >
+              Soy desarrollador{" "}
               <Typed
                 strings={[
                   "Frontend Developer",
@@ -63,39 +81,51 @@ export default function QuienSoy() {
                 width: { xs: "100%", sm: "70%", md: "60%", lg: "70%" },
                 padding: "25px",
                 textAlign: "left",
+                bgcolor: "#263238",
+                borderRadius: "20px",
               }}
             >
-              <Typography
-                variant="h5"
-                component="div"
-                sx={{ color: "white", marginBottom: "2%" }}
-              >
-                Soy desarrollador Full Stack Developer
+              <Typography variant="h7" component="div" sx={{ color: "white" }}>
+                Soy Desarrollador Web Full Stack, con la capacidad de realizar
+                proyectos que sean escalables y modularizables, la facultad de
+                empatizar con las personas y gran habilidad para el trabajo en
+                equipo.
               </Typography>
               <Typography variant="h7" component="div" sx={{ color: "white" }}>
                 Actualmente mis habilidades son: Javascript, React, Mui, Redux,
                 NodeJs, Express, Sequalize, PostgreSQL , GitHub
               </Typography>
             </Box>
-            <Box sx={{ flexGrow: 1 }}>
+            <Box
+              sx={{
+                flexGrow: 1,
+              }}
+            >
               <Grid
                 container
                 spacing={{ xs: 4, md: 3 }}
                 columns={{ xs: 4, sm: 8, md: 12 }}
-                sx={{ mt: "10%" }}
+                sx={{
+                  mt: "10%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
                 <Grid item xs={4} sm={8} md={6}>
                   <Button
                     href="#contactar"
                     sx={{
                       width: "100%",
-                      height: "80px",
-                      fontSize: "25px",
+                      height: "60px",
+                      fontSize: "20px",
                       color: "white",
                       background:
                         "linear-gradient(45deg, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1)",
                       borderRadius: "10px",
                       boxShadow: "0px 0px 10px #0d47a1",
+                      transition: "all 0.3s ease-in-out",
+                      ":hover": { transform: "scale(1.1)" },
                     }}
                     variant="contained"
                     color="primary"
@@ -107,13 +137,15 @@ export default function QuienSoy() {
                   <Button
                     sx={{
                       width: "100%",
-                      height: "80px",
-                      fontSize: "25px",
+                      height: "60px",
+                      fontSize: "20px",
                       color: "white",
                       background:
                         "linear-gradient(45deg, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1)",
                       borderRadius: "10px",
                       boxShadow: "0px 0px 10px #0d47a1",
+                      transition: "all 0.3s ease-in-out",
+                      ":hover": { transform: "scale(1.1)" },
                     }}
                     href={pdf}
                     variant="contained"
@@ -138,6 +170,7 @@ export default function QuienSoy() {
           sx={{
             display: { xs: "none", sm: "none", md: "none", lg: "block" },
           }}
+          className="izquierda"
         >
           <Stack
             direction="column"
@@ -145,14 +178,18 @@ export default function QuienSoy() {
             justifyContent="center"
             spacing={2}
           >
-            <Card sx={{ maxWidth: 545 }}>
+            <Box sx={{ maxWidth: 600 }}>
               <CardMedia
                 component="img"
                 alt="green iguana"
                 height="500"
-                image="https://cdn-icons-png.flaticon.com/512/2292/2292038.png"
+                image="https://cdn-icons-png.flaticon.com/512/172/172037.png"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
               />
-            </Card>
+            </Box>
           </Stack>
         </Grid>
       </Grid>
