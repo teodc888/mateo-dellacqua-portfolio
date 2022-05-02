@@ -14,7 +14,14 @@ import Typed from "react-typed";
 
 export default function Contactar() {
   return (
-    <Box sx={{ flexGrow: 1, bgcolor: "#263238", height: "100%", borderRadius:"20px" }}>
+    <Box
+      sx={{
+        flexGrow: 1,
+        bgcolor: "#263238",
+        height: "100%",
+        borderRadius: "20px",
+      }}
+    >
       <Stack
         direction="column"
         alignItems="center"
@@ -43,7 +50,7 @@ export default function Contactar() {
                 id="outlined-basic"
                 label="Nombre"
                 variant="outlined"
-                sx={{ width: "100%"  }}
+                sx={{ width: "100%" }}
               />
             </Grid>
             <Grid item xs={4} sm={4} md={8}>
@@ -59,7 +66,7 @@ export default function Contactar() {
                 id="outlined-basic"
                 label="Email"
                 variant="outlined"
-                sx={{ width: "100%"  }}
+                sx={{ width: "100%" }}
               />
             </Grid>
             <Grid item xs={4} sm={4} md={8}>
@@ -67,7 +74,7 @@ export default function Contactar() {
                 id="outlined-basic"
                 label="Asunto"
                 variant="outlined"
-                sx={{ width: "100%"  }}
+                sx={{ width: "100%" }}
               />
             </Grid>
             <Grid item xs={4} sm={8} md={16}>
@@ -94,9 +101,12 @@ export default function Contactar() {
                   height: "50px",
                   fontSize: "25px",
                   color: "white",
-                  bgcolor: "#0d47a1",
+                  background:
+                    "linear-gradient(45deg, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1)",
                   borderRadius: "10px",
                   boxShadow: "0px 0px 10px #0d47a1",
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
                   mb: "2%",
                 }}
               >

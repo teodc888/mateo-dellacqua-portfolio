@@ -67,9 +67,9 @@ export default function QuienSoy() {
               Soy desarrollador{" "}
               <Typed
                 strings={[
-                  "Frontend Developer",
-                  "Backend Developer",
-                  "Fullstack Developer",
+                  "Frontend ",
+                  "Backend ",
+                  "Fullstack ",
                 ]}
                 typeSpeed={50}
                 backSpeed={50}
