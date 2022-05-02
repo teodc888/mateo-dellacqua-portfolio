@@ -39,7 +39,7 @@ export default function QuienSoy() {
             >
               Mateo DellAcqua Castro <PanToolIcon sx={{ fontSize: "40px" }} />
             </Typography>
-            <Typography variant="h4" component="div" sx={{ color: "white" }}>
+            <Typography variant="h6" component="div" sx={{ color: "white" }}>
               <Typed
                 strings={[
                   "Frontend Developer",

@@ -16,7 +16,7 @@ export default function Home() {
       <br id="quienSoy" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
+          marginTop: { xs: "150px", sm: "210px", md: "210px", lg: "200px" },
         }}
         
       >
@@ -25,7 +25,7 @@ export default function Home() {
       <br id="conocimientos" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
+          marginTop: { xs: "250px", sm: "210px", md: "210px", lg: "200px" },
         }}
       >
         <Conocimientos />
