@@ -34,10 +34,15 @@ export default function QuienSoy() {
               variant="h3"
               textAlign={"center"}
               sx={{
-                fontSize: { xs: "40px", sm: "40px", md: "50px", lg: "50px" },
+                fontSize: { xs: "30px", sm: "40px", md: "50px", lg: "50px" },
               }}
             >
-              Mateo DellAcqua Castro <PanToolIcon sx={{ fontSize: "40px" }} />
+              Mateo DellAcqua Castro{" "}
+              <PanToolIcon
+                sx={{
+                  fontSize: { xs: "20px", sm: "40px", md: "50px", lg: "50px" },
+               }}
+              />
             </Typography>
             <Typography variant="h6" component="div" sx={{ color: "white" }}>
               <Typed
