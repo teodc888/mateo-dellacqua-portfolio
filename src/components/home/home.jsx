@@ -33,7 +33,7 @@ export default function Home() {
       <br id="experiencia" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
+          marginTop: { xs: "250px", sm: "210px", md: "210px", lg: "200px" },
         }}
       >
         <Experiencia />
@@ -41,7 +41,7 @@ export default function Home() {
       <br id="proyectos" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
+          marginTop: { xs: "250px", sm: "210px", md: "210px", lg: "200px" },
         }}
 
       >
@@ -50,7 +50,7 @@ export default function Home() {
       <br id="contactar" />
       <Box
         sx={{
-          marginTop: { xs: "110px", sm: "210px", md: "210px", lg: "200px" },
+          marginTop: { xs: "250px", sm: "210px", md: "210px", lg: "200px" },
         }}
       >
         <Contactar />

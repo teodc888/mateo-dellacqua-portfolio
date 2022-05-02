@@ -152,7 +152,7 @@ export default function Conocimientos() {
             columns={{ xs: 4, sm: 8, md: 16, lg: 16 }}
             sx={{ display: { xs: "flex", sm: "flex", md: "none", lg: "none" } }}
           >
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -165,7 +165,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -178,7 +178,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -191,7 +191,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -204,7 +204,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -217,7 +217,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -230,7 +230,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
@@ -243,7 +243,7 @@ export default function Conocimientos() {
                 />
               </Card>
             </Grid>
-            <Grid item xs={1} sm={2} md={4} lg={4}>
+            <Grid item xs={2} sm={2} md={4} lg={4}>
               <Card
                 sx={{ maxWidth: 100, margin: "auto", borderRadius: "20px" }}
               >
