@@ -9,6 +9,7 @@ import Conocimientos from "../conocimientos/conocimientos";
 import Experiencia from "../experiencia/experiencia";
 import Proyectos from "../proyectos/proyectos";
 import Contactar from "../contactar/contactar";
+import Footer from "../footer/footer";
 
 export default function Home() {
   return (
@@ -18,7 +19,6 @@ export default function Home() {
         sx={{
           marginTop: { xs: "150px", sm: "210px", md: "210px", lg: "200px" },
         }}
-        
       >
         <QuienSoy />
       </Box>
@@ -43,7 +43,6 @@ export default function Home() {
         sx={{
           marginTop: { xs: "250px", sm: "210px", md: "210px", lg: "200px" },
         }}
-
       >
         <Proyectos />
       </Box>
@@ -54,6 +53,14 @@ export default function Home() {
         }}
       >
         <Contactar />
+      </Box>
+      <br />
+      <Box
+        sx={{
+          marginTop: { xs: "250px", sm: "210px", md: "210px", lg: "200px" },
+        }}
+      >
+        <Footer />
       </Box>
     </>
   );
