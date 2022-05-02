@@ -92,7 +92,8 @@ export default function QuienSoy() {
                       height: "80px",
                       fontSize: "25px",
                       color: "white",
-                      bgcolor: "#0d47a1",
+                      background:
+                        "linear-gradient(45deg, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1)",
                       borderRadius: "10px",
                       boxShadow: "0px 0px 10px #0d47a1",
                     }}
@@ -109,7 +110,8 @@ export default function QuienSoy() {
                       height: "80px",
                       fontSize: "25px",
                       color: "white",
-                      bgcolor: "#0d47a1",
+                      background:
+                        "linear-gradient(45deg, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1)",
                       borderRadius: "10px",
                       boxShadow: "0px 0px 10px #0d47a1",
                     }}
