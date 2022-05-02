@@ -30,7 +30,7 @@ export default function Proyectos() {
       {!loading ? (
         <div style={{ textAlign: "center" }}>
           <img
-            src="https://media0.giphy.com/media/KKCuBooszlPG0/giphy.gif?cid=ecf05e47uzevurhfwl78zebim6eza58nh9bskq20tl2tldm6&rid=giphy.gif&ct=s"
+            src="https://media2.giphy.com/media/AJnRXb5DscFA7IK7bX/giphy.gif?cid=ecf05e47chb86jo50wt08xyeu6ezga0mhfgfe4l0ebepj6lu&rid=giphy.gif&ct=s"
             alt="loading"
             width="300"
             height="300"
