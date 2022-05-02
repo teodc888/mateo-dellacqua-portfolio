@@ -1,14 +1,7 @@
 import React from "react";
 
 //Mui
-import {
-  Box,
-  Stack,
-  Typography,
-  Grid,
-  CardMedia,
-  Button,
-} from "@mui/material";
+import { Box, Stack, Typography, Grid, CardMedia, Button } from "@mui/material";
 
 import PanToolIcon from "@mui/icons-material/PanTool";
 
@@ -66,11 +59,7 @@ export default function QuienSoy() {
             >
               Soy desarrollador{" "}
               <Typed
-                strings={[
-                  "Frontend ",
-                  "Backend ",
-                  "Fullstack ",
-                ]}
+                strings={["Frontend ", "Backend ", "Fullstack "]}
                 typeSpeed={50}
                 backSpeed={50}
                 loop
@@ -96,21 +85,11 @@ export default function QuienSoy() {
                 NodeJs, Express, Sequalize, PostgreSQL , GitHub
               </Typography>
             </Box>
-            <Box
-              sx={{
-                flexGrow: 1,
-              }}
-            >
+            <Box sx={{ flexGrow: 1 }}>
               <Grid
                 container
-                spacing={{ xs: 4, md: 3 }}
+                spacing={{ xs: 5, md: 8 }}
                 columns={{ xs: 4, sm: 8, md: 12 }}
-                sx={{
-                  mt: "10%",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
               >
                 <Grid item xs={4} sm={8} md={6}>
                   <Button
@@ -126,6 +105,7 @@ export default function QuienSoy() {
                       boxShadow: "0px 0px 10px #0d47a1",
                       transition: "all 0.3s ease-in-out",
                       ":hover": { transform: "scale(1.1)" },
+                      mt: { xs: "5%", sm: "5%", md: "0", lg: "0" },
                     }}
                     variant="contained"
                     color="primary"
