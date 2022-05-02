@@ -126,13 +126,13 @@ export default function Footer() {
           >
             <Avatar
               src={
-                "https://media-exp1.licdn.com/dms/image/C4D03AQEiYiJFvSodIQ/profile-displayphoto-shrink_800_800/0/1635979875813?e=1657152000&v=beta&t=n_vNY0k-tTYI6KG2ObRccAjuwSx3OIcGDdUnsjKUKqM"
+                "https://yt3.ggpht.com/ytc/AKedOLTSELq6LPkngAX-1NXibLVpiRecHxsjTGFX5Tx-3g=s900-c-k-c0x00ffffff-no-rj"
               }
               sx={{ position: "static", mr: "1.5%" }}
-              alt="Nuevos rumbos"
+              alt="Teo"
             />
             <Typography
-              variant="h6"
+              variant="h7"
               color="textPrimary"
               sx={{ mt: "0.5%", color: "white" }}
             >
