@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 //Mui
-import { Box } from "@mui/material";
+import { Box, Fab } from "@mui/material";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 //components
 import QuienSoy from "../quienSoy/quienSoy";
@@ -12,6 +13,26 @@ import Contactar from "../contactar/contactar";
 import Footer from "../footer/footer";
 
 export default function Home() {
+  const [visible, setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 90) {
+      setVisible(true);
+    } else if (scrolled <= 300) {
+      setVisible(false);
+    }
+  };
+
+  window.addEventListener("scroll", toggleVisible);
+
+  const handleSubir = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <br id="quienSoy" />
@@ -62,6 +83,25 @@ export default function Home() {
       >
         <Footer />
       </Box>
+      {visible === true && (
+        <Fab
+          variant="extended"
+          size="small"
+          aria-label="scroll back to top"
+          sx={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            background:
+              "linear-gradient(45deg, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1, #0d47a1)",
+            color: "white",
+            zIndex: "1000",
+          }}
+          onClick={handleSubir}
+        >
+          <ArrowUpwardIcon />
+        </Fab>
+      )}
     </>
   );
 }
