@@ -34,7 +34,7 @@ export default function Contactar() {
         </Typography>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2} columns={16}>
-            <Grid item xs={16}>
+            <Grid item xs={8}>
               <TextField
                 id="outlined-basic"
                 label="Nombre"
@@ -42,7 +42,7 @@ export default function Contactar() {
                 sx={{ width: "100%" }}
               />
             </Grid>
-            <Grid item xs={16}>
+            <Grid item xs={8}>
               <TextField
                 id="outlined-basic"
                 label="Apellido"
@@ -50,7 +50,15 @@ export default function Contactar() {
                 sx={{ width: "100%" }}
               />
             </Grid>
-            <Grid item xs={16}>
+            <Grid item xs={8}>
+              <TextField
+                id="outlined-basic"
+                label="Email"
+                variant="outlined"
+                sx={{ width: "100%" }}
+              />
+            </Grid>
+            <Grid item xs={8}>
               <TextField
                 id="outlined-basic"
                 label="Asunto"

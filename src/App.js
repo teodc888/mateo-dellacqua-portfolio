@@ -3,7 +3,6 @@ import * as React from "react";
 
 //Mui
 import { Container } from "@mui/material";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
@@ -12,7 +11,7 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 
 function App() {
-  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
+
 
   const theme = React.useMemo(
     () =>
@@ -25,10 +24,10 @@ function App() {
           fontWeightMedium: 500,
         },
         palette: {
-          mode: prefersDarkMode ? "dark" : "light",
+          mode: "dark",
         },
       }),
-    [prefersDarkMode]
+    []
   );
 
   return (
