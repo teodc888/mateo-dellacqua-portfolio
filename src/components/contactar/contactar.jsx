@@ -33,7 +33,7 @@ export default function Contactar() {
           variant="h3"
           textAlign={"center"}
           sx={{
-            fontSize: { xs: "40px", sm: "40px", md: "50px", lg: "50px" },
+            fontSize: { xs: "30px", sm: "30px", md: "40px", lg: "40px" },
             mt: "2%",
           }}
         >

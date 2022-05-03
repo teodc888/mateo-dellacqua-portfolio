@@ -116,7 +116,7 @@ const Resume = () => {
   const classes = useStyles();
   return (
     <Box component="header" className={classes.mainContainer}>
-      <Typography variant="h4" align="center" className={classes.heading}>
+      <Typography variant="h5" align="center" className={classes.heading}>
         <Typed
           strings={["        Experiencia Laboral"]}
           typeSpeed={50}
