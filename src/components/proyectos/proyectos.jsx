@@ -68,7 +68,7 @@ export default function Proyectos() {
           >
             {proyectos.map((proyecto) => {
               return (
-                <Grid item xs={4} sm={4} md={4} key={proyecto.id}>
+                <Grid item xs={4} sm={4} md={4} key={proyecto.id} data-aos="flip-down">
                   <CardP
                     imagen={proyecto.imagen}
                     titulo={proyecto.titulo}

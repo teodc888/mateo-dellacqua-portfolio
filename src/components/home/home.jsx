@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //Mui
-import { Box, Fab } from "@mui/material";
+import { Box, Container, Fab } from "@mui/material";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 //components
@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <Container maxWidth="L">
       <br id="quienSoy" />
       <Box
         sx={{
@@ -102,6 +102,6 @@ export default function Home() {
           <ArrowUpwardIcon />
         </Fab>
       )}
-    </>
+    </Container>
   );
 }

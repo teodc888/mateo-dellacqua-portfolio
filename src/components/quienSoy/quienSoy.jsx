@@ -17,7 +17,7 @@ export default function QuienSoy() {
         spacing={{ xs: 3, md: 6 }}
         columns={{ xs: 4, sm: 8, md: 16, lg: 16 }}
       >
-        <Grid item xs={4} sm={8} md={16} lg={8}>
+        <Grid item xs={4} sm={8} md={16} lg={8} data-aos="fade-right" > 
           <Stack
             direction="column"
             alignItems="center"
@@ -30,6 +30,7 @@ export default function QuienSoy() {
               sx={{
                 fontSize: { xs: "40px", sm: "40px", md: "40px", lg: "40px" },
               }}
+              
             >
               BIENVENIDOS{" "}
               <PanToolIcon
@@ -152,7 +153,7 @@ export default function QuienSoy() {
           sx={{
             display: { xs: "none", sm: "none", md: "none", lg: "block" },
           }}
-          className="izquierda"
+          data-aos="fade-left"
         >
           <Stack
             direction="column"

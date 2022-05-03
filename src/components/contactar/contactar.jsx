@@ -49,7 +49,15 @@ export default function Contactar() {
               spacing={{ xs: 4, md: 3 }}
               columns={{ xs: 4, sm: 8, md: 16 }}
             >
-              <Grid item xs={4} sm={4} md={8}>
+              <Grid
+                item
+                xs={4}
+                sm={4}
+                md={8}
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <TextField
                   id="outlined-basic"
                   label="Nombre"
@@ -60,7 +68,15 @@ export default function Contactar() {
                   required
                 />
               </Grid>
-              <Grid item xs={4} sm={4} md={8}>
+              <Grid
+                item
+                xs={4}
+                sm={4}
+                md={8}
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <TextField
                   id="outlined-basic"
                   label="Apellido"
@@ -71,7 +87,15 @@ export default function Contactar() {
                   required
                 />
               </Grid>
-              <Grid item xs={4} sm={4} md={8}>
+              <Grid
+                item
+                xs={4}
+                sm={4}
+                md={8}
+                data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+              >
                 <TextField
                   id="outlined-basic"
                   label="Email"
@@ -82,7 +106,15 @@ export default function Contactar() {
                   required
                 />
               </Grid>
-              <Grid item xs={4} sm={4} md={8}>
+              <Grid
+                item
+                xs={4}
+                sm={4}
+                md={8}
+                data-aos="fade-left"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+              >
                 <TextField
                   id="outlined-basic"
                   label="Asunto"
@@ -93,7 +125,13 @@ export default function Contactar() {
                   required
                 />
               </Grid>
-              <Grid item xs={4} sm={8} md={16}>
+              <Grid
+                item
+                xs={4}
+                sm={8}
+                md={16}
+                data-aos="flip-down"
+              >
                 <TextareaAutosize
                   aria-label="minimum height"
                   minRows={3}
@@ -129,6 +167,7 @@ export default function Contactar() {
                     mb: "2%",
                   }}
                   type="submit"
+                  data-aos="flip-up"
                 >
                   Enviar
                 </Button>

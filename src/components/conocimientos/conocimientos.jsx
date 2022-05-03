@@ -31,6 +31,7 @@ export default function Conocimientos() {
               mt: "2%",
               color: "#fff",
             }}
+            
           >
             <Typed
               strings={["Conocimientos"]}
@@ -52,6 +53,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -75,6 +77,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -97,6 +100,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -120,6 +124,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -143,6 +148,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -165,6 +171,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -187,6 +194,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -210,6 +218,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -232,6 +241,7 @@ export default function Conocimientos() {
                 maxWidth: 200,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -255,6 +265,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -279,6 +290,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -302,6 +314,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -333,6 +346,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -356,6 +370,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -378,6 +393,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -401,6 +417,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -424,6 +441,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -446,6 +464,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -468,6 +487,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -490,6 +510,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -512,6 +533,7 @@ export default function Conocimientos() {
                 maxWidth: 100,
                 margin: "auto",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -535,6 +557,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -559,6 +582,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-left"
             >
               <CardMedia
                 component="img"
@@ -582,6 +606,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
