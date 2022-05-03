@@ -73,7 +73,7 @@ export default function Contactar() {
                 xs={4}
                 sm={4}
                 md={8}
-                data-aos="fade-left"
+                data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
@@ -111,7 +111,7 @@ export default function Contactar() {
                 xs={4}
                 sm={4}
                 md={8}
-                data-aos="fade-left"
+                data-aos="fade-right"
                 data-aos-offset="400"
                 data-aos-easing="ease-in-sine"
               >
