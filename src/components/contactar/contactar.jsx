@@ -20,6 +20,7 @@ export default function Contactar() {
         bgcolor: "#263238",
         height: "100%",
         borderRadius: "20px",
+        padding:"30px"
       }}
     >
       <Stack

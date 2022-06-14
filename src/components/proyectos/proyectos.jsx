@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 //Mui
-import { Grid, Box, Stack, Typography  } from "@mui/material";
+import { Grid, Box, Stack, Typography } from "@mui/material";
 
 import Typed from "react-typed";
 
@@ -26,7 +26,15 @@ export default function Proyectos() {
   }, []);
 
   return (
-    <Box sx={{ flexGrow: 1, bgcolor: "#263238", height: "100%", borderRadius:"20px" }}>
+    <Box
+      sx={{
+        flexGrow: 1,
+        bgcolor: "#263238",
+        height: "100%",
+        borderRadius: "20px",
+        padding: "30px",
+      }}
+    >
       {!loading ? (
         <div style={{ textAlign: "center" }}>
           <img
@@ -68,7 +76,14 @@ export default function Proyectos() {
           >
             {proyectos.map((proyecto) => {
               return (
-                <Grid item xs={4} sm={4} md={4} key={proyecto.id} data-aos="flip-down">
+                <Grid
+                  item
+                  xs={4}
+                  sm={4}
+                  md={4}
+                  key={proyecto.id}
+                  data-aos="flip-down"
+                >
                   <CardP
                     imagen={proyecto.imagen}
                     titulo={proyecto.titulo}
