@@ -83,6 +83,7 @@ export default function Proyectos() {
                   md={4}
                   key={proyecto.id}
                   data-aos="flip-down"
+                  sx={{margin:"auto"}}
                 >
                   <CardP
                     imagen={proyecto.imagen}

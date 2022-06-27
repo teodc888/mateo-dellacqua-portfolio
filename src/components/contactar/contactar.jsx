@@ -55,9 +55,6 @@ export default function Contactar() {
                 xs={4}
                 sm={4}
                 md={8}
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
               >
                 <TextField
                   id="outlined-basic"
@@ -74,9 +71,6 @@ export default function Contactar() {
                 xs={4}
                 sm={4}
                 md={8}
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
               >
                 <TextField
                   id="outlined-basic"
@@ -93,9 +87,6 @@ export default function Contactar() {
                 xs={4}
                 sm={4}
                 md={8}
-                data-aos="fade-right"
-                data-aos-offset="400"
-                data-aos-easing="ease-in-sine"
               >
                 <TextField
                   id="outlined-basic"
@@ -112,9 +103,6 @@ export default function Contactar() {
                 xs={4}
                 sm={4}
                 md={8}
-                data-aos="fade-right"
-                data-aos-offset="400"
-                data-aos-easing="ease-in-sine"
               >
                 <TextField
                   id="outlined-basic"
@@ -131,7 +119,6 @@ export default function Contactar() {
                 xs={4}
                 sm={8}
                 md={16}
-                data-aos="flip-down"
               >
                 <TextareaAutosize
                   aria-label="minimum height"
@@ -168,7 +155,6 @@ export default function Contactar() {
                     mb: "2%",
                   }}
                   type="submit"
-                  data-aos="flip-up"
                 >
                   Enviar
                 </Button>
