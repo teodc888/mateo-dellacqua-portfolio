@@ -31,7 +31,6 @@ export default function Conocimientos() {
               mt: "2%",
               color: "#fff",
             }}
-            
           >
             <Typed
               strings={["Conocimientos"]}
@@ -47,6 +46,30 @@ export default function Conocimientos() {
           columns={{ xs: 4, sm: 8, md: 16, lg: 16 }}
           sx={{ display: { xs: "none", sm: "none", md: "flex", lg: "flex" } }}
         >
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-right"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Java Script
+              </Typography>
+            </Box>
+          </Grid>
           <Grid item xs={4} sm={8} md={4} lg={4}>
             <Box
               sx={{
@@ -68,77 +91,6 @@ export default function Conocimientos() {
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
                 React Js
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item xs={4} sm={8} md={4} lg={4}>
-            <Box
-              sx={{
-                maxWidth: 200,
-                margin: "auto",
-              }}
-              data-aos="flip-right"
-            >
-              <CardMedia
-                component="img"
-                alt="green iguana"
-                height="200"
-                sx={{
-                  transition: "all 0.3s ease-in-out",
-                  ":hover": { transform: "scale(1.1)" },
-                }}
-                image="https://img.icons8.com/color/480/redux.png"
-              />
-              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                Redux
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item xs={4} sm={8} md={4} lg={4}>
-            <Box
-              sx={{
-                maxWidth: 200,
-                margin: "auto",
-              }}
-              data-aos="flip-left"
-            >
-              <CardMedia
-                component="img"
-                alt="green iguana"
-                height="200"
-                sx={{
-                  transition: "all 0.3s ease-in-out",
-                  ":hover": { transform: "scale(1.1)" },
-                }}
-                image="https://v4.material-ui.com/static/logo.png"
-              />
-              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                Material UI
-              </Typography>
-            </Box>
-          </Grid>
-          <Grid item xs={4} sm={8} md={4} lg={4}>
-            <Box
-              sx={{
-                maxWidth: 200,
-                margin: "auto",
-                mb: "5%",
-              }}
-              data-aos="flip-right"
-            >
-              <CardMedia
-                component="img"
-                alt="green iguana"
-                height="200"
-                sx={{
-                  transition: "all 0.3s ease-in-out",
-                  ":hover": { transform: "scale(1.1)" },
-                  objectFit: "contain",
-                }}
-                image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
-              />
-              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                Bootstrap
               </Typography>
             </Box>
           </Grid>
@@ -193,8 +145,9 @@ export default function Conocimientos() {
               sx={{
                 maxWidth: 200,
                 margin: "auto",
+                mb: "5%",
               }}
-              data-aos="flip-left"
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -204,10 +157,10 @@ export default function Conocimientos() {
                   transition: "all 0.3s ease-in-out",
                   ":hover": { transform: "scale(1.1)" },
                 }}
-                image="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
+                image="https://www.freeiconspng.com/uploads/c-logo-icon-18.png"
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                Postgresql
+                C#
               </Typography>
             </Box>
           </Grid>
@@ -228,10 +181,152 @@ export default function Conocimientos() {
                   transition: "all 0.3s ease-in-out",
                   ":hover": { transform: "scale(1.1)" },
                 }}
-                image="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png"
+                image="https://img.icons8.com/color/480/microsoft-sql-server.png"
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                Java Script
+                Sql Server
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-right"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://cdn.iconscout.com/icon/free/png-256/microsoft-dot-net-1-1175179.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                .Net
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-left"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://docs.angular.lat/assets/images/logos/angularjs/AngularJS-Shield.svg"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Angular
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+              }}
+              data-aos="flip-right"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://img.icons8.com/color/480/redux.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Redux
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+              }}
+              data-aos="flip-left"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://img.icons8.com/color/480/material-ui.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Material UI
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-right"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                  objectFit: "contain",
+                }}
+                image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Bootstrap
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} sm={8} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 200,
+                margin: "auto",
+              }}
+              data-aos="flip-left"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="200"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Postgresql
               </Typography>
             </Box>
           </Grid>
@@ -290,7 +385,7 @@ export default function Conocimientos() {
                 margin: "auto",
                 mb: "5%",
               }}
-              data-aos="flip-left"
+              data-aos="flip-right"
             >
               <CardMedia
                 component="img"
@@ -299,11 +394,12 @@ export default function Conocimientos() {
                 sx={{
                   transition: "all 0.3s ease-in-out",
                   ":hover": { transform: "scale(1.1)" },
+                  objectFit: "contain",
                 }}
-                image="https://www.atodocurso.com/sites/default/files/html.png"
+                image="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png"
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                HTML
+                Html
               </Typography>
             </Box>
           </Grid>
@@ -323,8 +419,9 @@ export default function Conocimientos() {
                 sx={{
                   transition: "all 0.3s ease-in-out",
                   ":hover": { transform: "scale(1.1)" },
+                  objectFit: "contain",
                 }}
-                image="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png"
+                image="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png"
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
                 Css
@@ -592,10 +689,10 @@ export default function Conocimientos() {
                   transition: "all 0.3s ease-in-out",
                   ":hover": { transform: "scale(1.1)" },
                 }}
-                image="https://www.atodocurso.com/sites/default/files/html.png"
+                image="https://docs.angular.lat/assets/images/logos/angularjs/AngularJS-Shield.svg"
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
-                HTML
+                Angular
               </Typography>
             </Box>
           </Grid>
@@ -616,7 +713,103 @@ export default function Conocimientos() {
                   transition: "all 0.3s ease-in-out",
                   ":hover": { transform: "scale(1.1)" },
                 }}
-                image="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png"
+                image="https://www.freeiconspng.com/uploads/c-logo-icon-18.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                C#
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={2} sm={2} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 100,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-left"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="100"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://cdn.iconscout.com/icon/free/png-256/microsoft-dot-net-1-1175179.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                .Net
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={2} sm={2} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 100,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-right"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="100"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://img.icons8.com/color/480/microsoft-sql-server.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Sql Server
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={2} sm={2} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 100,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-left"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="100"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png"
+              />
+              <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
+                Html
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={2} sm={2} md={4} lg={4}>
+            <Box
+              sx={{
+                maxWidth: 100,
+                margin: "auto",
+                mb: "5%",
+              }}
+              data-aos="flip-right"
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="100"
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  ":hover": { transform: "scale(1.1)" },
+                }}
+                image="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png"
               />
               <Typography variant="h6" textAlign="center" sx={{ mt: 2 }}>
                 Css
